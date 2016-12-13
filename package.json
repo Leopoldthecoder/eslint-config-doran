@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-doran",
+  "version": "0.0.1",
+  "description": "Eslint configurations from Sunspear",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leopoldthecoder/eslint-config-doran.git"
+  },
+  "scripts": {
+    "pub": "sh release.sh"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "leopoldthecuber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Leopoldthecoder/eslint-config-doran/issues"
+  },
+  "homepage": "https://github.com/Leopoldthecoder/eslint-config-doran#readme"
+}
