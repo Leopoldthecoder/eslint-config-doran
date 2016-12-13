@@ -7,20 +7,12 @@ module.exports = {
     },
     sourceType: 'module'
   },
-  
+
   env: {
     es6: true,
     node: true
   },
-  
-  plugins: ['vue'],
-  
-  globals: {
-    document: false,
-    navigator: false,
-    window: false
-  },
-  
+
   rules: {
     'accessor-pairs': 2,
     'arrow-spacing': [2, { 'before': true, 'after': true }],
