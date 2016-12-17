@@ -13,6 +13,12 @@ module.exports = {
     node: true
   },
 
+  globals: {
+    document: false,
+    navigator: false,
+    window: false
+  },
+
   rules: {
     'accessor-pairs': 2,
     'arrow-spacing': [2, { 'before': true, 'after': true }],
