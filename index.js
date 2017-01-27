@@ -16,7 +16,9 @@ module.exports = {
   globals: {
     document: false,
     navigator: false,
-    window: false
+    window: false,
+    Promise: false,
+    Image: false
   },
 
   rules: {
