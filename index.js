@@ -18,7 +18,9 @@ module.exports = {
     navigator: false,
     window: false,
     Promise: false,
-    Image: false
+    Image: false,
+    CustomEvent: false,
+    Event: false
   },
 
   rules: {
