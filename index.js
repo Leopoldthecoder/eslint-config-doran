@@ -123,11 +123,16 @@ module.exports = {
     'semi': [2, 'never'],
     'semi-spacing': [2, { 'before': false, 'after': true }],
     'space-before-blocks': [2, 'always'],
-    'space-before-function-paren': [2, 'never'],
+    'space-before-function-paren': [2, {
+      anonymous: 'never',
+      named: 'never',
+      asyncArrow: 'always'
+    }],
     'space-in-parens': [2, 'never'],
     'space-infix-ops': 2,
     'space-unary-ops': [2, { 'words': true, 'nonwords': false }],
     'spaced-comment': [2, 'always', { 'markers': ['global', 'globals', 'eslint', 'eslint-disable', '*package', '!', ','] }],
+    'template-curly-spacing': [2, 'always'],
     'use-isnan': 2,
     'valid-typeof': 2,
     'wrap-iife': [2, 'any'],
